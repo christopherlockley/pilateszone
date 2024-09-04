@@ -1,0 +1,245 @@
+* {
+    margin:0;
+    padding: 0; 
+}
+
+.header {
+    height: 150px;
+    display: flex; 
+    justify-content: space-around;
+    background-color: aliceblue;
+
+}
+
+a:link {
+    color: black; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none; 
+}
+
+.navigation {
+    margin-top: 65px; 
+    display: flex;
+}
+
+.navigation ul {
+    display: flex; 
+    gap: 10px; 
+    list-style-type: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500; 
+
+}
+
+.hero {
+    height: 700px; 
+}
+
+.certifications {
+
+   
+    height: 600px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.separator {
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    display: flex; 
+    justify-content: center; 
+    font-family: "Manrope", sans-serif;
+    font-size: 26px; 
+    background-color: white;
+}
+
+.certification-one,
+.certification-two {
+    height: 500px;
+    width: 550px; 
+    border-radius: 25px;
+    background-color: #F5F5F5;
+    display: flex; 
+    flex-direction: column;
+   
+    align-items: center; 
+   
+   
+}
+
+.cert-text{
+    margin-top: 30px; 
+    text-align: center; 
+    max-width: 300px; 
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px; 
+}
+
+.cert-text-two {
+    margin-top: 30px; 
+    text-align: center; 
+    max-width: 300px; 
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 50px; 
+}
+
+.cert-text h3,
+.cert-text-two h3 {
+    font-family: "SUSE", sans-serif;
+    max-width: 550px; 
+}
+
+.testimonials{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: aliceblue;
+    height: 400px; 
+    
+}
+
+.reviewLocation {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+    height: 400px; 
+    font-family: "Poppins", sans-serif; 
+    text-align: center; 
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; 
+    background-color: rgb(30, 28, 28); 
+}
+
+.footer h3{
+    color: red;
+    font-family: "Manrope", sans-serif;
+}
+
+.footer em {
+    color: whitesmoke;
+}
+
+.contactContainer {
+    margin-top: 50px; 
+    display: flex; 
+    justify-content: space-around; 
+    
+}
+
+.contactForm {
+    display: flex; 
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400px; 
+    font-size: 20px; 
+    height: 600px;
+    width: 600px; }
+
+.contactText {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 500px; 
+        width: 500px; 
+ }
+
+.contactText h1 {
+    font-family: "SUSE", sans-serif;
+    font-size: 42px; 
+}
+
+.contactText p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px; 
+}
+
+#emailOrPhone {
+    font-family: "Poppins";
+}
+
+#emailOrPhone em {
+    font-weight: 500; 
+}
+
+
+
+#message {
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+ 
+}
+
+#name,
+#last {
+    height: 50px;
+    width: 200px; 
+}
+
+#email,
+#number {
+    margin-top: 10px; 
+    width: 400px; 
+    height: 50px; 
+    
+}
+
+#submit {
+    
+    width: 400px; 
+    height: 50px;
+    font-weight: 900;
+    background-color: aliceblue;
+    color: black; 
+    border: none; 
+    font-family: "Manrope", sans-serif;
+    font-size: 16px; 
+    display: flex; 
+    margin-top: 10px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.about-me {
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.left-about {
+    
+    display: flex; 
+    align-items: center;
+    margin-top: 100px; 
+    font-family: "SUSE", sans-serif; 
+    font-size: 30px; 
+    width: 300px;
+    height: 300px; 
+    border-right: 2px solid #606060;
+    color: 	#303030; 
+}
+
+.right-about {
+    
+    display: flex;
+    justify-content: left;
+    margin-top: 70px; 
+   
+    max-width: 600px; 
+}
+
+.right-about p {
+    font-family: "Manrope", sans-serif;
+}
