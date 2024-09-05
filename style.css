@@ -42,9 +42,10 @@ a:visited {
 .certifications {
 
     padding: 20px; 
-    height: 500px; 
+    height: 600px; 
     width: 100%; 
     display: flex; 
+    align-items: center;
     justify-content: space-evenly;
     background-color: white;
 }
@@ -117,6 +118,7 @@ a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
+   margin-bottom: -100px;
 
 }
 
@@ -150,6 +152,13 @@ a:visited {
     color: whitesmoke; 
     font-family: "Manrope", sans-serif;
 }
+
+.footer a{
+    color: whitesmoke; 
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+}
+
 
 
 
@@ -286,7 +295,7 @@ a:visited {
  
     height: 100px;
     width: 200px;  
-    background-color: cadetblue;
+    background-color: aliceblue;
     display: flex;
     align-items: center; 
     padding: 15px; 
@@ -308,16 +317,25 @@ a:visited {
 }
 
 .instructions p {
+    color: black; 
+    font-family: "Poppins", sans-serif;
+    font-size: 20px; 
+}
+
+
+
+.questionnaire p {
     font-family: "Manrope", sans-serif; 
     font-size: 18px; 
-    color: black; 
+    color: rgb(8, 7, 7); 
     
 }
 
 .questionnaire a {
-    color: whitesmoke;
-    font-family: "Poppins", sans-serif;
+    color: (8, 7, 7); 
+    font-family: "Manrope", sans-serif;
     text-align: center;
+    font-weight: 600; 
 }
 
 .location-container {
