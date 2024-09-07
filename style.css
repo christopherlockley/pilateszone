@@ -448,10 +448,22 @@ a:visited {
     display: flex; 
     justify-content: center;
     align-items: center;
-    height: 1000px; 
+    height: 1500px; 
     width: 100%;
 }
 
 .terms  p {
     max-width: 600px; 
+}
+
+.terms h2 {
+    font-family: "Manrope", sans-serif;
+}
+
+.terms p {
+    font-family: "Poppins", sans-serif; 
+}
+
+.terms em {
+    font-weight: 700;
 }
