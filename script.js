@@ -35,4 +35,14 @@ createPara();
 forwardArrow.addEventListener("click", createPara);
 backArrow.addEventListener("click", createPara); 
 
+const hamMenu = document.querySelector(".hamMenu"); 
+const hiddenNav = document.querySelector(".hiddenNav"); 
+
+hamMenu.addEventListener("click", () =>{
+    hamMenu.classList.toggle('active'); 
+    hiddenNav.classList.toggle('active'); 
+
+})
+
+
 

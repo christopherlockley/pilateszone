@@ -6,16 +6,31 @@
 
 .header {
     height: 150px;
-    width: 100%;
     display: flex; 
     justify-content: space-around;
     background-color: aliceblue;
-    flex-shrink: 1;
+   
 
+}
+
+@media only screen and (max-width: 430px){
+    .header {
+        width: 430px; 
+        background-color: aliceblue;
+        position: fixed; 
+    }
 }
 
 .header img{
   margin-top: -25px; 
+}
+
+@media only screen and (max-width: 430px){
+    .header img {
+        height: 100px; 
+        width: 100px; 
+        margin-top: 25px;  
+    }
 }
 
 a:link {
@@ -41,8 +56,94 @@ a:active {
 .navigation {
     margin-top: 65px; 
     display: flex;
-    flex-shrink: 2; 
+     
 }
+
+@media only screen and (max-width: 430px){
+    .navigation {
+        display: none;
+        
+    }}
+
+  
+    .hamMenu {
+        height: 40px; 
+        width: 40px; 
+        display: flex;  
+        position: relative; 
+    }
+
+    @media only screen and (max-width: 430px){
+        .hamMenu {
+            height: 25px;
+            width: 25px;
+        }
+    }
+    
+
+    .hamMenu span {
+        height: 5px; 
+        width: 100%; 
+        background-color: pink; 
+        border-radius: 10px;
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        margin-top: 55px; 
+        transform: translate(-50%, - 50%); 
+        transition: 0.3s ease; 
+}
+
+
+
+   
+    .hamMenu span:nth-child(1){
+        top: 25%; 
+    }
+    
+    .hamMenu span:nth-child(3){
+        top: 75%; 
+    }
+    
+    .hamMenu.active span:nth-child(1){
+        top: 50%; 
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    
+    .hamMenu.active span:nth-child(3){
+        top: 50%; 
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    
+    
+    .hamMenu.active span:nth-child(2){
+        opacity: 0; 
+    }
+    .hiddenNav {
+        background-color: aliceblue;
+        list-style-type: none;
+        right: -450px; 
+        position: fixed; 
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .hiddenNav.active {
+        right: 0; 
+        width: 300px; 
+        height: 140px; 
+        margin-top: 10px; 
+    
+    }
+    
+    .hiddenNav ul{
+        font-family: "Manrope", sans-serif;
+        font-size: 24px; 
+        font-weight: 600;
+        color: white;
+        list-style-type: none;
+    }
+
 
 .navigation ul {
     display: flex; 
@@ -56,6 +157,7 @@ a:active {
 
 .hero {
     height: 700px; 
+   
 }
 
 .certifications {
