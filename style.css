@@ -472,7 +472,7 @@ a:active {
 
 @media only screen and (max-width:430px){
     .about-me {
-        max-height: 500px; 
+        max-height: 10000px; 
     }
 }
 
@@ -516,6 +516,7 @@ a:active {
     justify-content: center;
     flex-direction: column;
     align-items: left;
+    flex-shrink: 2; 
     margin-top: 70px; 
     max-height: 700px; 
     max-width: 500px; 
@@ -526,8 +527,8 @@ a:active {
         display: flex;
         justify-content: center;
         max-width: 300px; 
-        max-height: 2000px; 
-        font-size: 1vh; 
+        max-height: 8000px; 
+        font-size: 12px; 
         
     }
 }
@@ -559,6 +560,18 @@ a:active {
 @media only screen and (max-width:430px){
     .about-photo {
         display: none; 
+    }
+}
+
+.hidden-photo {
+    display: none; 
+}
+
+@media only screen and (max-width: 430px){
+    .hidden-photo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px; 
     }
 }
 
