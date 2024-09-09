@@ -674,6 +674,16 @@ a:active {
     
 }
 
+@media only screen and (max-width: 430px){
+    .maps {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+        height: 1600px; 
+    }
+}
+
 .church-one,
 .church-two,
 .church-three {
