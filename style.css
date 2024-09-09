@@ -197,10 +197,8 @@ a:active {
 @media only screen and (max-width: 430px){
     .hero img {
         width: auto; 
-        transform: translate(-200px, -250px); 
-        /* position: absolute; 
-        left: -200px; 
-        top: -150px;  */
+        transform: translate(-300px, -250px); 
+    
 
     }
 }
@@ -472,6 +470,9 @@ a:active {
     justify-content: space-evenly; 
 }
 
+
+
+
 .left-about {
     
     display: flex; 
@@ -484,6 +485,7 @@ a:active {
     color: 	#303030; 
 }
 
+
 .right-about {
     
     display: flex;
@@ -491,10 +493,12 @@ a:active {
     flex-direction: column;
     align-items: left;
     margin-top: 70px; 
-    height: 700px; 
+    max-height: 700px; 
    
     max-width: 500px; 
 }
+
+
 
 .right-about #name {
     font-weight: 700; 
@@ -505,11 +509,15 @@ a:active {
     font-family: "Manrope", sans-serif;
 }
 
+
+
 .about-photo {
     display: flex; 
     align-items: center;
     
 }
+
+
 
 .questionnaire-container {
     margin-top: 40px; 
@@ -614,7 +622,16 @@ a:active {
     font-size: (3em + 3vw); 
     height: 150px;
     width: 100%;
+    
 
+}
+
+@media only screen (and max-width 430px){
+    .quote em {
+        display: flex; 
+        justify-content: center; 
+        font-weight: 700; 
+    }
 }
 
 .info-container {
@@ -664,6 +681,7 @@ a:active {
     max-width: 700px; 
     font-family: "Manrope", sans-serif;
 }
+
 
 .conditions-three {
   display: flex;
