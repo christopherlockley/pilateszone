@@ -470,6 +470,24 @@ a:active {
     justify-content: space-evenly; 
 }
 
+@media only screen and (max-width:430px){
+    .about-me {
+        max-height: 500px; 
+    }
+}
+
+.mobile-header {
+    display: none; 
+}
+
+@media only screen and (max-width:430px){
+    .mobile-header {
+        display: flex; 
+        justify-content: center;
+        font-family: "SUSE", sans-serif; 
+        margin-top: 20px; 
+    }
+}
 
 
 
@@ -485,6 +503,12 @@ a:active {
     color: 	#303030; 
 }
 
+@media only screen and (max-width: 430px){
+    .left-about {
+        display: none;
+    }
+}
+
 
 .right-about {
     
@@ -494,8 +518,18 @@ a:active {
     align-items: left;
     margin-top: 70px; 
     max-height: 700px; 
-   
     max-width: 500px; 
+}
+
+@media only screen and (max-width: 430px){
+    .right-about {
+        display: flex;
+        justify-content: center;
+        max-width: 300px; 
+        max-height: 2000px; 
+        font-size: 1vh; 
+        
+    }
 }
 
 
@@ -509,6 +543,11 @@ a:active {
     font-family: "Manrope", sans-serif;
 }
 
+@media only screen and (max-width: 430px){
+    .right-about p {
+        margin-top: 100px; 
+    }
+}
 
 
 .about-photo {
@@ -517,7 +556,17 @@ a:active {
     
 }
 
+@media only screen and (max-width:430px){
+    .about-photo {
+        display: none; 
+    }
+}
 
+@media only screen and (max-width: 430px){
+    #about-footer {
+        margin-top: 90px; 
+    }
+}
 
 .questionnaire-container {
     margin-top: 40px; 
@@ -626,13 +675,6 @@ a:active {
 
 }
 
-@media only screen (and max-width 430px){
-    .quote em {
-        display: flex; 
-        justify-content: center; 
-        font-weight: 700; 
-    }
-}
 
 .info-container {
     max-height: 200px;
