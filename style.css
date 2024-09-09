@@ -688,6 +688,12 @@ a:active {
 
 }
 
+@media only screen and (max-width: 430px){
+    .quote {
+        font-weight: 700; 
+    }
+}
+
 
 .info-container {
     max-height: 200px;
@@ -768,21 +774,45 @@ a:active {
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    height: 600px; 
+    height: 700px; 
     width: 100%;
     
+}
+
+@media only screen and (max-width: 430px){
+    .class-container {
+        display: flex; 
+        flex-direction: column;
+        gap: 20px; 
+        height: 2000px; 
+    }
 }
 
 .class-one,
 .class-two,
 .class-three {
-    max-height: 618px;
-    max-width: 400px;
+    height: 618px;
+    width: 400px;
     background-color: aliceblue;
     display: flex; 
     flex-direction: column;
-    column-count: 3;
    
+   
+}
+
+@media only screen and (max-width: 430px){
+    .class-one,
+    .class-two,
+    .class-three {
+        max-width: 350px;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        border: 1px solid black; 
+    }
 }
 
 .class-one h4,
@@ -811,10 +841,29 @@ a:active {
     max-height: 200px; 
 }
 
-.class-one img,
+@media only screen and (max-width:430px){
+    .class-one p,
+    .class-two p,
+    .class-three p {
+        font-size: 3vw; 
+    }
+}
+
+.class-one img {
+    margin-top:78px; 
+}
+
+@media only screen and (max-width: 430px){
+    .class-one img,
+    .class-two img,
+    .class-three img {
+        height: 200px; 
+        width: 350px
+    }
+}
 .class-two img,
 .class-three img {
-    margin-top: 20px; 
+    margin-top: 55px; 
     max-width: 100%; 
 }
 
