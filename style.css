@@ -663,8 +663,24 @@ a:active {
     font-size: 24px; 
 }
 
+@media only screen and (max-width: 430px){
+    .left-content {
+        display: none; 
+    }
+}
+
 .right-content p {
     font-family: "Poppins", sans-serif;
+}
+
+
+@media only screen and (max-width: 430px){
+    .right-content {
+        max-width: 300px;
+        max-height: 200px; 
+        font-size: 2vh;
+        margin-top: -150px;
+    }
 }
 
 .maps {
@@ -681,6 +697,19 @@ a:active {
         align-items: center;
         gap: 20px; 
         height: 1600px; 
+    }
+}
+
+.mobile-header-two {
+    display: none; 
+}
+
+@media only screen and (max-width: 430px){
+    .mobile-header-two {
+        display: flex; 
+        justify-content: center;
+        font-family: "Manrope", sans-serif;
+        margin-top: 20px;
     }
 }
 
