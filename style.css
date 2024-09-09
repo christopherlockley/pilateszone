@@ -726,7 +726,8 @@ a:active {
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif; 
-    font-size: (3em + 3vw); 
+    font-size: 24px; 
+    font-weight: 500; 
     height: 150px;
     width: 100%;
     
@@ -735,6 +736,7 @@ a:active {
 
 @media only screen and (max-width: 430px){
     .quote {
+        text-align: center;
         font-weight: 700; 
     }
 }
@@ -762,7 +764,7 @@ a:active {
 }
 
 .conditions p {
-    max-width: 800px; 
+    max-width: 600px; 
     font-family: "Manrope", sans-serif;
     font-size: 20px; 
    
@@ -783,11 +785,6 @@ a:active {
 .bold {
     font-weight:  700; 
 }
-.conditions-two p {
-    max-width: 800px; 
-    font-family: "Manrope", sans-serif;
-    font-size: 20px; 
-}
 
 
 .conditions-three {
@@ -797,15 +794,10 @@ a:active {
   flex-shrink: 2;
   max-height: 85px; 
   
-  
-    
-
- 
-
 }
 
 .conditions-three p {
-    max-width: 800px; 
+    max-width: 600px; 
     font-family: "Manrope", sans-serif;
     font-size: 20px; 
     
@@ -844,6 +836,8 @@ a:active {
     }
 }
 
+
+
 .class-one,
 .class-two,
 .class-three {
@@ -854,6 +848,8 @@ a:active {
     flex-shrink: 1;
     flex-wrap: 1;
     flex-direction: column;
+    padding: 10px; 
+   
    
    
 }
