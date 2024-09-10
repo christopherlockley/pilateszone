@@ -1068,6 +1068,40 @@ a:active {
     width: 100%;
 }
 
+@media only screen and (max-width: 430px){
+    .terms {
+        height: 1200px; 
+        padding: 3px; 
+    
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .terms {
+        height: 1050px; 
+        padding: 3px; 
+    
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .terms {
+        height: 1100px; 
+        padding: 3px; 
+    
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .terms {
+        height: 750px; 
+        padding: 3px; 
+    
+    }
+}
+
+
+
 .terms  p {
     max-width: 600px; 
 }
@@ -1079,6 +1113,12 @@ a:active {
 .terms p {
     font-family: "Poppins", sans-serif; 
     font-size: 14px; 
+}
+
+@media only screen and (max-width: 430px){
+    .terms p {
+        font-size: 1vh; 
+    }
 }
 
 .terms em {
