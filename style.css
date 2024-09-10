@@ -396,11 +396,35 @@ a:active {
     }
 }
 
+@media only screen and (max-width: 390px){
+    .mobile-header-three {
+        display: flex; 
+        justify-content: center;
+        margin-top: 50px; 
+        font-family: "Manrope", sans-serif;
+        font-size: 3vh; 
+        padding: 20px; 
+        max-width: 380px; 
+    
+    }
+}
+
 .mobile-para {
     display: none;
 }
 
 @media only screen and (max-width: 430px){
+    .mobile-para {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        max-width: 380px; 
+        padding: 20px;
+        font-family: "Poppins";
+    }
+}
+
+@media only screen and (max-width: 390px){
     .mobile-para {
         display: flex; 
         justify-content: center;
@@ -428,6 +452,13 @@ a:active {
     }
 }
 
+@media only screen and (max-width: 390px){
+    .contactContainer {
+        margin-top: -20px; 
+    }
+}
+
+
 
 
 
@@ -435,6 +466,7 @@ a:active {
 .contactForm {
     display: flex; 
     align-items: center;
+    flex-shrink: 1;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400px; 
     font-size: 20px; 
@@ -449,15 +481,33 @@ a:active {
         }
     }
 
+    @media only screen and (max-width: 390px){
+        .contactForm {
+            display: flex; 
+            justify-content: center;
+            margin-left: 50px; 
+            max-width: 350px;
+           
+        }
+    }
+
+
 .contactText {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        flex-shrink: 1;
         height: 500px; 
         width: 500px; 
  }
 
  @media only screen and (max-width: 430px){
+    .contactText {
+        display: none; 
+    }
+}
+
+@media only screen and (max-width: 390px){
     .contactText {
         display: none; 
     }
@@ -496,11 +546,34 @@ a:active {
  
 }
 
+@media only screen and (max-width: 430px){
+    #message {
+        height: 300px; 
+        width: 300px; 
+    }
+
+}
+
 #name,
 #subject {
     height: 50px;
     width: 200px; 
     border: 1px solid black;
+}
+
+@media only screen and (max-width: 430px){
+    #email,
+    #number {
+        
+        width: 300px; 
+    }
+}
+
+@media only screen and (max-width: 390px){
+    #email,
+    #number {
+        width: 300px; 
+    }
 }
 
 #email,
@@ -526,6 +599,12 @@ a:active {
     margin-top: 10px;
     align-items: center; 
     justify-content: center;
+}
+
+@media only screen and (max-width: 390px){
+    #submit {
+        width: 300px; 
+    }
 }
 
 .about-me {
